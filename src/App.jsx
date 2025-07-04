@@ -1,3 +1,4 @@
+import { BoxHover } from "./components/BoxHover/BoxHover";
 import { ClicksCounter } from "./components/ClicksCounter/ClicksCounter";
 import { DobleClickCounter } from "./components/DobleClickCounter/DobleClickCounter";
 import { Form } from "./components/Form/Form";
@@ -13,6 +14,7 @@ export const App = () => {
 			<Form />
 			<ShowText />
 			<DobleClickCounter />
+			<BoxHover />
 		</>
 	);
 };
