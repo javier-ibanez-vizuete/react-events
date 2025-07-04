@@ -1,17 +1,17 @@
 body {
-  background-color: #FABADA;
+	background-color: #fabada;
 }
 
 #root {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
 }
 
-#root div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#root > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
-  padding: 8px;
+	padding: 8px;
 }
