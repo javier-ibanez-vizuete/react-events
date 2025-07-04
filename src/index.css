@@ -1,0 +1,17 @@
+body {
+  background-color: #FABADA;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#root div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 8px;
+}
