@@ -14,6 +14,7 @@ export const AlertForm = () => {
 
 	return (
 		<div className="alert-form-container">
+            <h2>Formulario</h2>
 			<form action="#" method="get" onSubmit={onFormSubmit}>
 				<label htmlFor="input-alert-form">USUARIO</label>
 				<input
