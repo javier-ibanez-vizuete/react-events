@@ -2,6 +2,9 @@ body {
 	background-color: #fabada;
 }
 
+img {
+	width: 100%;
+}
 
 #root {
 	display: flex;
@@ -10,7 +13,7 @@ body {
 }
 
 h1 {
-  align-self: center;
+	align-self: center;
 }
 
 #root > div {

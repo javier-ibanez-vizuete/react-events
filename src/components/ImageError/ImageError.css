@@ -1,0 +1,11 @@
+.image-error-container {
+	background-color: peru;
+}
+
+.image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 400px;
+}
