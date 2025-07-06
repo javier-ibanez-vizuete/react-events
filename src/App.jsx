@@ -1,3 +1,4 @@
+import { AlertForm } from "./components/AlertForm/AlertForm";
 import { BoxHover } from "./components/BoxHover/BoxHover";
 import { ClicksCounter } from "./components/ClicksCounter/ClicksCounter";
 import { DobleClickCounter } from "./components/DobleClickCounter/DobleClickCounter";
@@ -19,6 +20,7 @@ export const App = () => {
 			<BoxHover />
 			<KeysCounter />
 			<InputFocus />
+			<AlertForm />
 		</>
 	);
 };
