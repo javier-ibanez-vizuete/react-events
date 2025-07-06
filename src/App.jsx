@@ -7,6 +7,7 @@ import { ImageError } from "./components/ImageError/ImageError";
 import { InputFocus } from "./components/InputFocus/InputFocus";
 import { InputMirror } from "./components/InputMirror/InputMirror";
 import { KeysCounter } from "./components/KeysCounter/KeysCounter";
+import { ScrollingDiv } from "./components/ScrollingDiv/ScrollingDiv";
 import { ShowText } from "./components/ShowText/ShowText";
 
 export const App = () => {
@@ -23,6 +24,7 @@ export const App = () => {
 			<InputFocus />
 			<AlertForm />
 			<ImageError />
+			<ScrollingDiv />
 		</>
 	);
 };
