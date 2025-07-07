@@ -11,8 +11,13 @@ export const CustomizedSelect = () => {
 			<h2>Select Personalizado</h2>
 			<div>
 				<label htmlFor="select-customized">Selecciona un idioma</label>
-				<select name="select-customized" id="select-customized" onChange={onSelectChange}>
-					<option disabled selected>
+				<select
+					name="select-customized"
+					id="select-customized"
+					value={selectedOption}
+					onChange={onSelectChange}
+				>
+					<option disabled defaultValue="">
 						Selecciona un idioma
 					</option>
 					<option value="english">Inglés</option>
