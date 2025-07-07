@@ -1,0 +1,9 @@
+.input-focus-container {
+	background-color: aquamarine;
+}
+
+.input-focus-container .focused-input-focus {
+	background-color: red;
+	color: white;
+	border: 1px solid blue;
+}
