@@ -1,0 +1,10 @@
+.scrolling-div-container {
+    background-color: whitesmoke;
+}
+
+.div-to-scroll {
+    height: 200px;
+    width: 300px;
+    background-color: aquamarine;
+    overflow: scroll;
+}

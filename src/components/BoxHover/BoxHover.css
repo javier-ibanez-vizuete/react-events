@@ -1,0 +1,13 @@
+.box-hover-container {
+	background-color: yellow;
+}
+
+.box-hover {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+}
+
+.colored-box-hover {
+	background-color: blue;
+}
