@@ -1,6 +1,7 @@
 import { AlertForm } from "./components/AlertForm/AlertForm";
 import { BoxHover } from "./components/BoxHover/BoxHover";
 import { ClicksCounter } from "./components/ClicksCounter/ClicksCounter";
+import { CustomizedSelect } from "./components/CustomizedSelect/CustomizedSelect";
 import { DobleClickCounter } from "./components/DobleClickCounter/DobleClickCounter";
 import { Form } from "./components/Form/Form";
 import { ImageError } from "./components/ImageError/ImageError";
@@ -27,6 +28,7 @@ export const App = () => {
 			<ImageError />
 			<ScrollingDiv />
 			<InputChecked />
+			<CustomizedSelect />
 		</>
 	);
 };
