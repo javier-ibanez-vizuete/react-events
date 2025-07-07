@@ -3,6 +3,7 @@ import { BoxHover } from "./components/BoxHover/BoxHover";
 import { ClicksCounter } from "./components/ClicksCounter/ClicksCounter";
 import { CustomizedSelect } from "./components/CustomizedSelect/CustomizedSelect";
 import { DobleClickCounter } from "./components/DobleClickCounter/DobleClickCounter";
+import { EditableText } from "./components/EditableText/EditableText";
 import { Form } from "./components/Form/Form";
 import { ImageError } from "./components/ImageError/ImageError";
 import { InputChecked } from "./components/InputChecked/InputChecked";
@@ -29,6 +30,7 @@ export const App = () => {
 			<ScrollingDiv />
 			<InputChecked />
 			<CustomizedSelect />
+			<EditableText />
 		</>
 	);
 };
