@@ -1,5 +1,6 @@
 import { AlertForm } from "./components/AlertForm/AlertForm";
 import { BoxHover } from "./components/BoxHover/BoxHover";
+import { Button } from "./components/button/Button";
 import { ClicksCounter } from "./components/ClicksCounter/ClicksCounter";
 import { CustomizedSelect } from "./components/CustomizedSelect/CustomizedSelect";
 import { DobleClickCounter } from "./components/DobleClickCounter/DobleClickCounter";
@@ -31,6 +32,7 @@ export const App = () => {
 			<InputChecked />
 			<CustomizedSelect />
 			<EditableText />
+			<Button />
 		</>
 	);
 };
